@@ -8,6 +8,7 @@ echo "To be run with eleveted previlages"
 # Initialize
 cd ~                         # Change Directory to Home
 apt update && apt upgrade -y # Initial Update and Upgrade
+clear
 
 # Install Basic Packages
 apt install -y \
@@ -44,13 +45,16 @@ apt install -y \
 cd ~/Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb # Google Chrome
 apt install -y ~/Downloads/google-chrome-stable_current_amd64.deb 
+clear
 echo "Finished Installing Additional Packages"
 
 # Update and upgrade
 apt update && apt upgrade -y
+clear
 echo "Finished Updating and Upgrading"
 
 # Clean up
 apt autoremove -y
 rm ~/Downloads/google-chrome-stable_current_amd64.deb
+clear
 

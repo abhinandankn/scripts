@@ -6,6 +6,7 @@ echo "Running post_install.sh"
 echo "Finished Setting up system"
 
 # Other tasks
+clear
 echo "Other tasks"
 echo "Install albert https://albertlauncher.github.io/docs/installing/"
 echo "Install Visual Studio Code https://code.visualstudio.com/"
