@@ -1,9 +1,9 @@
 ### Post Install Scripts
 
 Scripts to run after fresh installaion of Ubuntu. The scipt does the following
-* Install required packages.(`install_packages.sh`)
-* Install necessary python packages, set up bash, vim, spacemacs .etc. (`setup.sh`)
-* Suggest a list of customizations to perform after installation. (`post_install.sh`)
+1. Install required packages(`install_packages.sh`).
+2. Install necessary python packages, set up bash, vim, spacemacs (`setup.sh`).
+3. Suggest a list of customizations to perform after installation (`post_install.sh`).
 
 #### Installation
 
