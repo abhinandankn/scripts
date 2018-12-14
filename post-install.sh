@@ -1,4 +1,5 @@
 #!/bin/bash
+# Title: Post Install Packages
 # Author: Abhinandan K N
 
 # Initialize
@@ -51,7 +52,7 @@ cd ~
 echo "Finished Installing Debian Packages"
 
 # Git Clone .dotfiles Repository
-git clone https://peregrine_falcon@bitbucket.org/peregrine_falcon/dotfiles.git
+git clone https://peregrine_falcon@bitbucket.org/peregrine_falcon/dotfiles.git ~/.dotfiles
 
 echo "Cloned .dotfiles"
 
