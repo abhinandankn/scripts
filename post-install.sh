@@ -44,8 +44,8 @@ cd ~/Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb # Google Chrome
 wget https://download2.tixati.com/download/tixati_2.58-1_amd64.deb             # Tixati
 
-apt install ~/Downloads/google-chrome-stable_current_amd64.deb 
-apt install ~/Downloads/tixati_2.58-1_amd64.deb
+apt install -y ~/Downloads/google-chrome-stable_current_amd64.deb 
+apt install -y ~/Downloads/tixati_2.58-1_amd64.deb
 
 cd ~
 echo "Finished Installing Debian Packages"
