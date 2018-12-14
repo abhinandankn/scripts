@@ -40,9 +40,6 @@ apt install -y \
     pop-theme \
     grub-customizer
 
-echo "Finished Installing Additional Packages"
-
-# Download and Install Debian Packages
 cd ~/Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb # Google Chrome
 wget https://download2.tixati.com/download/tixati_2.58-1_amd64.deb             # Tixati
@@ -113,12 +110,14 @@ rm -Rf ~/Downloads/tomorrow-theme                                              #
 echo "Finished Setting up Vim"
 
 # Set up Spacemacs
+cd ~
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 ln -sf ~/.dotfiles/spacemacs .spacemacs # symbolically link spacemacs to .spacemacs
 
 echo "Finished Setting up Spacemacs"
 
 # Set up Tmux
+cd ~
 ln -sf ~/.dotfiles/tmux.conf .tmux.conf             # symbolically link tmux.conf to .tmux.conf
 ln -sf ~/.dotfiles/tmux.conf.local .tmux.conf.local # symbolically link tmux.conf.local to .tmux.conf.local
 
@@ -126,8 +125,10 @@ echo "Finished Setting up Tmux"
 
 # Remaining tasks
 echo "Finished..."
-echo "Remaining Tasks"
-echo "Install Grub Theme and Configure GRUB"
-echo "Install Visual Studio Code"
+echo "Remaining Tasks..."
+echo "Install Grub Theme and Configure GRUB http://ubuntuhandbook.org/index.php/2017/06/vimix-grub2-theme-makes-ubuntu-boot-loader-look-prettier/"
+echo "Install Visual Studio Code https://code.visualstudio.com/"
+echo "Configure Flatpak. https://flatpak.org/setup/Ubuntu/"
+echo "Set CapsLock to Esc in gnome-tweaks"
 echo "Configure Pop Icon Theme"
 
