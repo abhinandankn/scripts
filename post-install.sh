@@ -10,7 +10,6 @@ apt update && apt upgrade -y # Initial Update and Upgrade
 
 # Install Basic Packages
 apt install -y \
-    albert \
     build-essential \
     clang \
     curl \
@@ -128,6 +127,7 @@ echo "Finished Setting up Tmux"
 apt autoremove -y
 echo "Finished..."
 echo "Remaining Tasks..."
+echo "Install alber https://albertlauncher.github.io/docs/installing/"
 echo "Install Grub Theme and Configure GRUB http://ubuntuhandbook.org/index.php/2017/06/vimix-grub2-theme-makes-ubuntu-boot-loader-look-prettier/"
 echo "Install Visual Studio Code https://code.visualstudio.com/"
 echo "Configure Flatpak. https://flatpak.org/setup/Ubuntu/"
