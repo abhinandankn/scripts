@@ -125,6 +125,7 @@ ln -sf ~/.dotfiles/tmux.conf.local .tmux.conf.local # symbolically link tmux.con
 echo "Finished Setting up Tmux"
 
 # Remaining tasks
+apt autoremove -y
 echo "Finished..."
 echo "Remaining Tasks..."
 echo "Install Grub Theme and Configure GRUB http://ubuntuhandbook.org/index.php/2017/06/vimix-grub2-theme-makes-ubuntu-boot-loader-look-prettier/"
