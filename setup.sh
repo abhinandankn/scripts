@@ -17,10 +17,10 @@ git clone https://peregrine_falcon@bitbucket.org/peregrine_falcon/dotfiles.git ~
 echo "Cloned .dotfiles"
 
 # Install fonts
-cp -r ~/.dotfiles/fonts/Inconsolata/ /usr/share/fonts/        # Inconsolata
-cp -r ~/.dotfiles/fonts/SystemSanFransisco/ /usr/share/fonts/ # System San Fransisco
-cp -r ~/.dotfiles/fonts/SourceCodePro/ /usr/share/fonts/      # Source Code Pro
-cp -r ~/.dotfiles/fonts/AppleGaramond/ /usr/share/fonts/      # Apple Garamond
+sudo cp -r ~/.dotfiles/fonts/Inconsolata/ /usr/share/fonts/        # Inconsolata
+sudo cp -r ~/.dotfiles/fonts/SystemSanFransisco/ /usr/share/fonts/ # System San Fransisco
+sudo cp -r ~/.dotfiles/fonts/SourceCodePro/ /usr/share/fonts/      # Source Code Pro
+sudo cp -r ~/.dotfiles/fonts/AppleGaramond/ /usr/share/fonts/      # Apple Garamond
 echo "Finished installing fonts"
 
 # Create a backups directory
@@ -58,7 +58,7 @@ echo "Finished setting up spacemacs"
 
 # Set up Tmux
 cd ~
-ln -sf ~/.dotfiles/tmux.conf .tmux.conf             
-ln -sf ~/.dotfiles/tmux.conf.local .tmux.conf.local 
+ln -sf ~/.dotfiles/tmux/tmux.conf .tmux.conf             
+ln -sf ~/.dotfiles/tmux/tmux.conf.local .tmux.conf.local 
 echo "Finished setting up tmux"
 
