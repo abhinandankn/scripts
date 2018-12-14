@@ -113,6 +113,7 @@ rm -Rf ~/Downloads/tomorrow-theme                                              #
 echo "Finished Setting up Vim"
 
 # Set up Spacemacs
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 ln -sf ~/.dotfiles/spacemacs .spacemacs # symbolically link spacemacs to .spacemacs
 
 echo "Finished Setting up Spacemacs"
