@@ -42,7 +42,6 @@ echo "Finished setting up bash"
 
 # Set up Vim
 cd ~
-mv .vimrc ~/Backups
 ln -sf ~/.dotfiles/vimrc .vimrc   
 mkdir ~/.vim                      # Make necessary directories
 mkdir ~/.vim/bundle
