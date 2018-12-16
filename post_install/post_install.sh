@@ -17,4 +17,6 @@ echo "6. Create a bash profile and install Molokai Color theme https://github.co
 echo "7. Install bast-it                                       https://github.com/Bash-it/bash-it"
 echo "8. Install and setup Dropbox"
 echo "9. Remove Gnome search Indexing"
+echo "10. Add German Input Method in Gnome Settings"
+echo "10. Set Compose key in Gnome Tweaks"
 
