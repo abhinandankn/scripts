@@ -7,11 +7,14 @@ echo "Finished Setting up system"
 
 # Other tasks
 clear
-echo "Other tasks"
-echo "Install albert https://albertlauncher.github.io/docs/installing/"
-echo "Install Visual Studio Code https://code.visualstudio.com/"
-echo "Configure Flatpak. https://flatpak.org/setup/Ubuntu/"
-echo "Set CapsLock to Esc in gnome-tweaks"
-echo "Configure Pop Icon Theme"
-echo "Install Grub Theme and Configure GRUB http://ubuntuhandbook.org/index.php/2017/06/vimix-grub2-theme-makes-ubuntu-boot-loader-look-prettier/"
+echo "List of additional tasks after setup:"
+echo "1. Install Albert https://albertlauncher.github.io/docs/installing/"
+echo "2. Install Visual Studio Code https://code.visualstudio.com/"
+echo "3. Configure Flatpak. https://flatpak.org/setup/Ubuntu/"
+echo "4. Set CapsLock to Esc in gnome-tweaks"
+echo "5. Tweak Gnome: Fonts and Icons"
+echo "6. Create a bash profile and install Molokai Color theme https://github.com/Mayccoll/Gogh"
+echo "7. Install bast-it https://github.com/Bash-it/bash-it"
+echo "8. Install and setup Dropbox"
+echo "9. Remove Gnome search Indexing"
 

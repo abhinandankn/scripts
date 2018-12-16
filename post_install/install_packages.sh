@@ -13,12 +13,16 @@ clear
 # Install Basic Packages
 apt install -y \
     build-essential \
+    chrome-gnome-shell \
     clang \
     curl \
+    dconf-cli \
     emacs \
     fonts-powerline \
+    flatpak \
     gcc \
     git \
+    gnome-shell-extensions \
     gnome-tweaks \
     htop \
     python3-dev \

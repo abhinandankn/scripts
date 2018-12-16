@@ -19,10 +19,11 @@ clear
 echo "Cloned .dotfiles"
 
 # Install fonts
-sudo cp -r ~/.dotfiles/fonts/Inconsolata/ /usr/share/fonts/        # Inconsolata
-sudo cp -r ~/.dotfiles/fonts/SystemSanFransisco/ /usr/share/fonts/ # System San Fransisco
-sudo cp -r ~/.dotfiles/fonts/SourceCodePro/ /usr/share/fonts/      # Source Code Pro
-sudo cp -r ~/.dotfiles/fonts/AppleGaramond/ /usr/share/fonts/      # Apple Garamond
+sudo cp -r ~/.dotfiles/fonts/Roboto/ /usr/share/fonts/        # Roboto
+sudo cp -r ~/.dotfiles/fonts/Roboto_Mono/ /usr/share/fonts/   # Roboto Mono
+sudo cp -r ~/.dotfiles/fonts/Inconsolata/ /usr/share/fonts/   # Inconsolata
+sudo cp -r ~/.dotfiles/fonts/IBM_Plex_Mono/ /usr/share/fonts/ # IBM Plex Mono
+sudo cp -r ~/.dotfiles/fonts/SourceCodePro/ /usr/share/fonts/ # Source Code Pro
 clear
 echo "Finished installing fonts"
 
@@ -35,8 +36,7 @@ echo "Finished creating backups directory"
 # Set up Bash
 cd ~
 mv .bashrc ~/Backups
-ln -sf ~/.dotfiles/bashrc .bashrc         # symbolically link bashrc to .bashrc
-ln -sf ~/.dotfiles/bash_alias .bash_alias # symbolically link bash_alias to .bash_alias
+ln -sf ~/.dotfiles/bashrc.default .bashrc # symbolically link bashrc to .bashrc
 clear
 echo "Finished setting up bash"
 
