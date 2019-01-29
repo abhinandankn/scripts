@@ -15,6 +15,7 @@ apt install -y \
     build-essential \
     chrome-gnome-shell \
     clang \
+    ctags \
     curl \
     dconf-cli \
     emacs \
